@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family: Newpitch Script;
+    src: url(/Fonts/NewpitchScript_PERSONAL_USE_ONLY.otf);
+}
+
+body {
+    background-color: rgb(211, 241, 255);
+}
+
+h1 {
+    color: rgb(0, 183, 255);
+    text-align: center;
+    font-family: Newpitch Script;
+    font-size: 50px;
+    border-style:groove;
+    border-radius: 20px;
+    width: 600px;
+    margin: auto;
+    background-color: aquamarine;
+    border-color: aquamarine;
+    text-shadow: 2px 2px 0cap rgb(0, 85, 67);
+    box-shadow: 2px 2px 4px black;
+    }
+
+.myphotos {
+    width: 200px;
+    height: auto;
+    margin: auto;
+    border-radius: 60px;
+    transition: transform 0.52s ease;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.myphotos:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.button_container{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.button {
+    margin: auto;
+    color: aliceblue;
+    display: table;
+    transition: 0.5s ease;
+    font-size: 50px;
+    border-radius: 20px;
+    border-color: aqua;
+    background-color: aqua;
+}
+
+.button:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
